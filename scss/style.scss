@@ -1,0 +1,39 @@
+$color1: white;
+$color2: black;
+
+html, body {
+  background: linear-gradient(to bottom, #000428, #004e92);
+}
+
+h1 {
+	background: url(https://www.hdwallpapers.in/walls/despicable_me_minions-wide.jpg);
+	width: 100%;
+	text-align: center;
+	color: #EA384D;
+	font-weight: 900;
+	
+	
+}
+
+@keyframes shine {
+	0% {background-position: -100%;}
+	100% {background-position: 100%;}
+}
+
+
+
+
+html, body {
+	height: 100%;
+}
+
+h1 {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	font-size: 20vw;
+	margin: 0;
+	font-family: serif;
+	font-weight: 700;
+}
